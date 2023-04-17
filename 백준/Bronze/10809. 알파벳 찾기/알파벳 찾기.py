@@ -10,3 +10,7 @@ for i in range(len(word)):
 
 for j in range(len(li)):
     print(li[j], end=' ')
+    
+    
+#2
+print(*map(input().find,map(chr,range(97,123))))
